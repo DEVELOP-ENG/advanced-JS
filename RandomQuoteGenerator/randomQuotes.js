@@ -5,7 +5,7 @@ var quotes = [
     "Nevermind it's just a coffee stain.",
     "Actually, I'm just dreaming."
 ];
-function generate(arr){
+function generate(){
     var random = Math.floor(Math.random() * quotes.length);
     document.getElementById("quoteDisplay").innerHTML = quotes[random];        
 }
